@@ -92,9 +92,9 @@
 .dashboard-widget,
 .WorkspacePopup-Items button:hover{
     --shadow-offset:0;
-    --shadow-blur:20px;
-    --shadow-spread:-2px;
-    --shadow-color:rgba(255,255,255,0.3);
+    --shadow-blur:15px;
+    --shadow-spread:-5px;
+    --shadow-color:rgba(255,255,255,0.2);
 
     border-top: 1px rgba(255,255,255,0.5) solid !important;
     border-left: 1px rgba(255,255,255,0.5) solid !important;
@@ -206,7 +206,7 @@
 
 [name="WorkspaceButton"]{
     margin-top:1.5px;
-    border: 1px transparent;
+    border: 3px transparent !important;
 }
 
 .toolbar > button{
