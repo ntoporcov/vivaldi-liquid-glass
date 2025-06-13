@@ -204,6 +204,15 @@
     }
 }
 
+[name="WorkspaceButton"]{
+    margin-top:1.5px;
+    border: 1px transparent;
+}
+
+.toolbar > button{
+    border: 1px transparent !important;
+}
+
 .button-toolbar.newtab{
     top: calc(var(--PositionY) * 1.2) !important;
 }
